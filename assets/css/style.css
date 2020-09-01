@@ -1,0 +1,362 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  /* background-color: pink; */
+}
+
+
+.bodyWrapper {
+  min-height: 1000px;
+  height: 1000px;
+  max-height: 100%;
+  max-width: 800px;
+  width: 100%;
+  min-width: 700px;
+  /* width: 500px */
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.heading {
+  display: none;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.customerizeNav {
+  background-color: #EFD819;
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+
+#displayCommand {
+  display: none;
+  margin-left: -400px;
+  font-family: "Lato", sans-serif;
+}
+
+.parent {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+}
+
+/* .extra {
+  display: absolute;
+} */
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  /* min-height: 50px; */
+  background-color: #F8F9FA;
+  /* margin: 0; */
+
+  margin-bottom: 0;
+
+}
+
+.me {
+  margin: 30px;
+  display: none;
+  text-align: center;
+
+}
+
+.cat {
+  margin: 30px;
+  display: none;
+  text-align: center;
+}
+
+.showcase {
+  /* width: 330px;
+  height: 400px; */
+  width: 230px;
+  height: 300px;
+  border-radius: 20px;
+
+}
+
+.pokeball {
+  width: 130px;
+  height: 130px;
+  display: none;
+}
+
+.pokeballOpened {
+  width: 130px;
+  height: 130px;
+  display: none;
+}
+
+.charmanderParent {
+  display: flex;
+}
+.charmander2 {
+  width: 130px;
+  height: 130px;
+  display: none;
+}
+
+.fire {
+  width: 130px;
+  height: 130px;
+  display: none;
+}
+
+.react {
+  width: 130px;
+  height: 130px;
+  display: none;
+}
+
+.nodejs {
+  width: 130px;
+  height: 130px;
+  display: none;
+}
+
+.mongodb {
+  width: 130px;
+  height: 130px;
+  display: none;
+}
+
+.javascript {
+  width: 130px;
+  height: 130px;
+  display: none;
+}
+
+.mysqlPhp {
+  width: 130px;
+  height: 130px;
+  display: none;
+}
+
+
+.testHeight {
+  height: 100px;
+}
+
+.slideShow {
+  display: flex;
+
+}
+
+.slideShow .items {
+  width: 200px;
+  height: 280px;
+  margin: 20px;
+  outline: none;
+}
+
+.technologies {
+  margin-top: 80px;
+}
+
+.technologies h1 {
+  text-align: center;
+}
+.myCanvas {
+ /* border:3px solid #000000; */
+ border-radius: 50%;
+ background-color: #0298A3;
+ width: 200px;
+ height: 200px;
+
+}
+
+.myCanvasCpp {
+  /* border:3px solid #047DC6; */
+  border-radius: 50%;
+  background-color: #047DC6;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+.myCanvasCsharp {
+  /* border:3px solid #95478E; */
+  border-radius: 50%;
+  background-color: #95478E;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+.myCanvasJava {
+  /* border:3px solid #F80003; */
+  border-radius: 50%;
+  background-color: #F80003;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+.myCanvasPython {
+  /* border:3px solid #F6CA3F; */
+  border-radius: 50%;
+  background-color: #F6CA3F;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+.myCanvasPhp {
+  /* border:3px solid #868EBA; */
+  border-radius: 50%;
+  background-color: #868EBA;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+.myCanvasMysql {
+  /* border:3px solid #02658A; */
+  border-radius: 50%;
+  background-color: #02658A;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+.myCanvasJavascript {
+  /* border:3px solid #F7C12E; */
+  border-radius: 50%;
+  background-color: #F7C12E;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+.myCanvasNodejs {
+  /* border:3px solid #3B823E; */
+  border-radius: 50%;
+  background-color: #3B823E;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+.myCanvasReact {
+  /* border:3px solid #5FD3F3; */
+  border-radius: 50%;
+  background-color: #5FD3F3;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+.myCanvasMongodb {
+  /* border:3px solid #1B8632; */
+  border-radius: 50%;
+  background-color: #1B8632;
+  /* color: pink; */
+  width: 200px;
+  height: 200px;
+}
+
+
+#php {
+  background-color: #868EBA;
+}
+#python {
+  background-color: #F6CA3F;
+}
+
+#cpp {
+  background-color: #047DC6;
+}
+
+#javascript {
+  background-color: #F7C12E;
+}
+
+#x86 {
+  background-color: #0298A3;
+}
+
+#csharp {
+  background-color: #95478E;
+}
+
+#java {
+  background-color: #F80003;
+}
+
+#mysql {
+  background-color: #02658A;
+}
+
+#react {
+  background-color: #5FD3F3;
+}
+
+#mongodb {
+  background-color: #1B8632;
+}
+
+#nodejs {
+  background-color: #3B823E;
+}
+
+.items h5 {
+  text-align: center;
+  margin-left: 20px;
+}
+
+
+
+/*-------------*/
+
+.myProjects {
+/* width: 100%; */
+background-color: #EFD819;
+height: 300px;
+min-height: 300px;
+/* position: relative; */
+margin:0;
+}
+
+.subHeading {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+.subGallery {
+  margin: 8px;
+
+}
+
+.subGallery p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subGallery img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.subGallery h5 {
+  text-align: center;
+}
+
+.myExperience {
+  height: 300px;
+  /* display: flex; */
+  /* justify-content: center; */
+  min-height: 200px;
+  /* position: relative; */
+  margin:0;
+}
