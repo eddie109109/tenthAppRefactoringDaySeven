@@ -1,7 +1,9 @@
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
+
   /* background-color: pink; */
 }
 
@@ -16,6 +18,8 @@ body {
   /* width: 500px */
   justify-content: center;
   margin: 0 auto;
+  color:#D92C2D;
+
 }
 
 .heading {
@@ -25,10 +29,20 @@ body {
   width: 100%;
 }
 
+.heading h1 {
+  font-weight: 400;
+}
+
 .customerizeNav {
-  background-color: #EFD819;
-  color: black;
+  background-color: #D92C2D;
+  color: white;
   font-family: "Lato", sans-serif;
+  font-size: 25px;
+}
+
+.customerizeNav a:hover {
+  color: white;
+
 }
 
 #displayCommand {
@@ -47,11 +61,18 @@ body {
   display: absolute;
 } */
 
+.hrAboveSkillSet {
+  border-top: 4px solid red;
+  width: 200px;
+}
+
+
 .footer {
   padding: 10px;
   text-align: center;
   /* min-height: 50px; */
-  background-color: #F8F9FA;
+  background-color: #363C3F;
+  color: white;
   /* margin: 0; */
 
   margin-bottom: 0;
@@ -160,6 +181,7 @@ body {
 
 .technologies h1 {
   text-align: center;
+  font-weight: 600;
 }
 .myCanvas {
  /* border:3px solid #000000; */
@@ -315,7 +337,8 @@ body {
 
 .myProjects {
 /* width: 100%; */
-background-color: #EFD819;
+background-color: #D92C2D;
+color: white;
 height: 300px;
 min-height: 300px;
 /* position: relative; */
@@ -326,15 +349,16 @@ margin:0;
   text-align: center;
   padding-top: 20px;
   font-family: "Lato", sans-serif;
+  font-weight: 600;
 }
 
 .gallery {
   display: flex;
   justify-content: center;
+
 }
 .subGallery {
   margin: 8px;
-
 }
 
 .subGallery p {
@@ -348,6 +372,8 @@ margin:0;
   border: 1px solid black;
   border-radius: 20px;
   object-fit: cover;
+
+
 }
 .subGallery h5 {
   text-align: center;
@@ -355,9 +381,39 @@ margin:0;
 
 .myExperience {
   height: 300px;
-  /* display: flex; */
-  /* justify-content: center; */
+  color: #D92C2D;
   min-height: 200px;
   /* position: relative; */
   margin:0;
+}
+
+
+.contact {
+  background-color: #F7F8F8;
+  width: 100%;
+  min-height: 200px;
+  text-align: center;
+
+}
+
+.contact h2 {
+  padding-top: 20px;
+  color: #D92C2D;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+}
+
+.contact a {
+  color:#D92C2D;
+  font-weight:bold;
+}
+
+.aboveFooter {
+  min-height: 6px;
+  background-color: #D92C2D;
 }

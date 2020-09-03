@@ -90,7 +90,7 @@ function myFunction() {
 function myFunction1() {
   setTimeout(function(){
     var animation = new TimelineMax();
-    animation.set("#displayCommand", {duration: 3, opacity: 1, x:100, display:"block"}).set('#displayCommand', {delay: 1,display:"none"})
+    animation.set("#displayCommand", {duration: 3, opacity: 1, x:100, display:"block"}).set('#displayCommand', {delay: 1, display:"none"})
     .to('.charmander2', {duration: 2, opacity: 1, x:-1780, rotation:360, stagger:0.25, display: "block"})
     .set('.charmander2', {opacity: 0})
     .to(".me", {duration: 1, opacity: 1, x:180, stagger:0.25, display:"block"});
@@ -122,16 +122,21 @@ $(document).ready(function(){
   });
 });
 
-// $(document).ready(()=> {
-//   var canvas = $("#myCanvas");
-//   var ctx = canvas.text("3d");
-//   alert(ctx);
-//   ctx.font = "30px Arial";
-//
-//   ctx.fillText("Hello World",10,50);
-//   alert(ctx);
-// });
+var app = document.getElementById('app');
 
-// $(function(){
-//
-//var canvas = document.getElementById("myCanvas");
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('<span style="color:#EFD819; font-size: 40px;">coding.</span>')
+    .pauseFor(2500)
+    .deleteChars(7)
+    .typeString('<span style="color:#EFD819; font-size: 40px;">playing basketball.</span>')
+    .pauseFor(2500)
+    .deleteChars(19)
+    .typeString('<span style="color:#EFD819; font-size: 40px;">swimming.</span>')
+    .pauseFor(2500)
+    .deleteChars(9)
+    .typeString('<span style="color:#EFD819; font-size: 40px;">tinkering with new technologies!</span>')
+    .pauseFor(2500)
+    .start();
