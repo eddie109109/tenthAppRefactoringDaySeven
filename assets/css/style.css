@@ -347,6 +347,7 @@ margin:0;
   height: 200px;
   border: 1px solid black;
   border-radius: 20px;
+  object-fit: cover;
 }
 .subGallery h5 {
   text-align: center;
